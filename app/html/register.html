@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/register.css">
+  <link rel="stylesheet" type="text/css" href="/libs/iconfont.css">
+  <script src="/libs/require.js" data-main="/js/register.js"></script>
+</head>
+<body>
+  <div class="box">
+    <div class="top">
+      <h3>注册 Smartisan ID</h3>
+      <span class="sj" id="sj">手机号/邮箱不存在</span>
+      <span class="mm1" id="mm1">前3位英文后数字至少6位</span>
+      <span class="mm2" id="mm2">两次密码不一致</span>
+    </div>
+    <form action="/html/login.html">
+        <div class="usern">
+            <span class="iconfont icon-yonghu"></span>
+            <span>+86</span>
+            <input type="text" placeholder="手机号/邮箱" id="usern">
+        </div>
+        <div class="passw">
+            <span class="iconfont icon-yonghu"></span>
+            <input type="password" placeholder="密码" id="passw">
+        </div>
+        <div class="passw1">
+            <span class="iconfont icon-yonghu"></span>
+            <input type="password" placeholder="重复密码" id="passw1">
+        </div>
+        <div class="chec">
+            <input type="checkbox" value="" name="" id="owari"/>我已阅读并同意遵守
+            <a href="javascript:;">法律声明</a>和
+            <a href="javascript:;">隐私条款</a>
+        </div>
+        <input type="submit" value="注册" class="reg" id="regg">
+    </form>
+    <a href="javascript:;" class="dl" id="register_dl"><span>如果您已拥有Smartisan ID，则可在此</span>登录</a>
+  </div>
+  <footer>
+      <div><a href="javascript:;">Copyright © 2017, Smartisan Digital Co., Ltd. All Rights Reserved.北京锤子数码科技有限公司</a><span>|</span><a href="javascript:;">法律声明</a><span>|</span><a href="javascript:;">隐私条款</a></div>
+      <a href="javascript:;">京ICP备14041720号-1京ICP证140622号京公网安备11010502025474</a>
+    </footer>
+</body>
+</html>

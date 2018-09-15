@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+input{
+  outline: none;
+  border: none;
+}
+//这是重置样式
+
+.body{
+  width: 100%;
+  background: #ffffff;
+  .detail{
+    width: 1220px;
+    margin: 0 auto;
+    height: 600px;
+    .im{
+      width: 500px;
+      height: 500px;
+      float: left;
+    }
+    .right{
+      width: 615px;
+      float: left;
+      .r_t{
+        width: 615px;
+        height: 155px;
+        border-bottom: 1px solid #999999;
+        overflow: hidden;
+        h3{
+          margin-top: 50px;
+          font-size: 30px;
+          font-weight: normal;
+        }
+        p{
+          margin-top: 20px;
+          font-size: 12px;
+          color: #999999;
+        }
+      }
+      .r_m{
+        width: 615px;
+        height: 115px;
+        border-bottom: 1px solid #999999;
+        overflow: hidden;
+        span{
+          color: #666666;
+          display: inline-block;
+          font-size: 14px;
+          margin-top: 35px;
+          float: left;
+        }
+        p{
+          font-size: 12px;
+          margin-left: 140px;
+          color: #999999;
+        }
+        .p1{
+          margin-top: 35px;
+        }
+      }
+      .r_b{
+        width: 615px;
+        height: 241px;
+        border-bottom: 1px solid #999999;
+        .co{
+          height: 100px;
+          .ys{
+            color: #666666;
+            display: inline-block;
+            font-size: 14px;
+            margin-top: 35px;
+            float: left;
+          }
+          a{
+            color: #333333;
+            margin-top: 25px;
+            display: inline-block;
+            margin-left: 10px;
+            span{
+              border-radius: 50%;
+              border: 1px solid #999999;
+              display: inline-block;
+              width: 25px;
+              height: 25px;
+            }
+          }
+        }
+        .ro{
+          height: 110px;
+          span{
+            color: #666666;
+            display: inline-block;
+            font-size: 14px;
+            margin-top: 35px;
+            float: left;
+          }
+          button{
+            width: 130px;
+            height: 45px;
+            line-height: 45px;
+            text-align: center;
+            margin-top: 15px;
+            margin-left: 10px;
+            border: 1px solid #9cb4ee;
+            font-weight: bolder;
+            font-size: 14px;
+            border: none;
+            border-radius: 15px;
+            background: #eee9e9;
+          }
+          .but4{
+            margin-left: 65px;
+          }
+        }
+      }
+    }
+    .buy{
+            width: 130px;
+            height: 45px;
+            line-height: 45px;
+            text-align: center;
+            margin-top: 15px;
+            margin-right: 100px;
+            border: 1px solid #eee9e9;
+            font-weight: bolder;
+            font-size: 14px;
+            border: none;
+            border-radius: 15px;
+            background: #9cb4ee;
+            float: right;
+            cursor: pointer;
+    }
+  }
+}

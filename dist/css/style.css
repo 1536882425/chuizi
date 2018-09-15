@@ -1,0 +1,444 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+input {
+  outline: none;
+  border: none; }
+
+header {
+  width: 100%;
+  height: 46px;
+  background: #28292b; }
+
+header .logo {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  background: url(/images/chuizi/logo.3a7265b74f867e3fca91f1fc175de02d.png) no-repeat center 14px;
+  background-size: 45%; }
+
+header ul {
+  margin-left: 279px; }
+
+header ul li {
+  float: left;
+  height: 46px;
+  line-height: 46px;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 20px; }
+
+header ul li a {
+  color: #9b9c9d; }
+
+header ul li a:hover {
+  color: #e5e5bc; }
+
+header ul li:nth-child(1) a {
+  font-weight: bolder;
+  color: #e5e5e5; }
+
+header #user {
+  line-height: 46px;
+  color: #a5a6a6;
+  margin-left: 167px; }
+
+header #pay {
+  line-height: 46px;
+  color: #a5a6a6;
+  margin-left: 20px; }
+
+.nav {
+  width: 100%;
+  height: 75px;
+  background: #ffffff;
+  z-index: 1; }
+
+.nav ul {
+  width: 806px;
+  height: 75px;
+  margin-left: 59px;
+  float: left; }
+
+.nav li {
+  text-align: center;
+  line-height: 75px;
+  margin: 0 16px;
+  float: left; }
+
+.nav a {
+  font-size: 13px;
+  color: #808080; }
+  .nav a:hover {
+    color: #6BABED; }
+
+.nav li:nth-child(1) a {
+  font-weight: bolder;
+  color: #333333; }
+
+.serch {
+  width: 382px;
+  height: 34px;
+  float: left;
+  margin-left: 39px;
+  margin-top: 22px;
+  border: 1px solid #d2d2d2;
+  border-radius: 16px; }
+  .serch a {
+    display: inline-block;
+    width: 55px;
+    height: 34px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 34px;
+    color: #808080;
+    float: left; }
+  .serch input {
+    height: 32px;
+    width: 310px;
+    border: none; }
+
+.atama {
+  display: none; }
+  .atama #u {
+    height: 34px;
+    float: left;
+    margin-left: 39px;
+    margin-top: 22px;
+    line-height: 34px;
+    color: #a5a6a6;
+    margin-left: 167px;
+    font-size: 16px; }
+  .atama #p {
+    height: 34px;
+    float: left;
+    margin-left: 39px;
+    margin-top: 22px;
+    line-height: 34px;
+    color: #a5a6a6;
+    font-size: 16px; }
+
+.banner {
+  width: 100%;
+  height: 547px;
+  background: #ededed;
+  overflow: hidden;
+  position: relative; }
+  .banner .btn {
+    margin: 0 auto;
+    margin-top: 24px;
+    width: 1220px;
+    height: 498px;
+    position: relative; }
+    .banner .btn li {
+      width: 1220px;
+      height: 498px;
+      position: absolute; }
+    .banner .btn img {
+      width: 1220px;
+      height: 498px; }
+  .banner .aBtn {
+    width: 32px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 485px; }
+    .banner .aBtn li {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 1px solid #808080;
+      background: #d2d2d2;
+      float: left;
+      cursor: pointer; }
+    .banner .aBtn li.ac {
+      background: #ffffff; }
+    .banner .aBtn li:nth-child(2) {
+      float: right; }
+
+.newP {
+  width: 100%;
+  height: 229px;
+  background: #ededed; }
+  .newP ul {
+    width: 1220px;
+    height: 204px;
+    border-top: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    margin: 0 auto; }
+    .newP ul li {
+      height: 204px;
+      width: 304px;
+      border-right: 1px solid #eeeeee;
+      border-bottom: 1px solid #eeeeee;
+      float: left; }
+      .newP ul li:hover {
+        box-shadow: 0px 0px 37px 1px #dbdbea inset; }
+      .newP ul li a {
+        height: 204px;
+        width: 304px;
+        display: inline-block; }
+    .newP ul li:nth-child(1) {
+      background: url(/images/chuizi/a782c9d097df224f9f2704c00134b7ae.png) no-repeat center center;
+      background-size: 100%; }
+    .newP ul li:nth-child(2) {
+      background: url(/images/chuizi/5f7ca1ad51682c2e3c28cd0abc152f8f.jpg) no-repeat center center;
+      background-size: 100%; }
+    .newP ul li:nth-child(3) {
+      background: url(/images/chuizi/09923ca6d377899d15ad4874ba4d163a.jpg) no-repeat center center;
+      background-size: 100%; }
+    .newP ul li:nth-child(4) {
+      background: url(/images/chuizi/5abc95e62727a4035b41833f55dba45f.png) no-repeat center center;
+      background-size: 100%; }
+
+.hot {
+  width: 100%;
+  height: 516px;
+  background: #ededed; }
+  .hot .hot_t {
+    width: 1220px;
+    height: 62px;
+    background: #ffffff;
+    margin: 0 auto;
+    border-top: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb; }
+    .hot .hot_t h3 {
+      margin-left: 48px;
+      margin-top: 20px;
+      font-size: 18px;
+      color: #666666;
+      float: left; }
+    .hot .hot_t .turn {
+      float: left;
+      margin-left: 997px;
+      margin-top: 12px;
+      background: #ffffff;
+      height: 48px; }
+      .hot .hot_t .turn button {
+        display: inline-block;
+        width: 48px;
+        height: 48px;
+        border: none; }
+      .hot .hot_t .turn button:nth-child(1) {
+        transform: rotate(180deg);
+        background: url(/images/chuizi/hot-arrow-right.31f3b3cd90b1f36ff2d4559fd36cf2f8.png) no-repeat center center;
+        background-size: 100%; }
+      .hot .hot_t .turn button:nth-child(2) {
+        background: url(/images/chuizi/hot-arrow-right.31f3b3cd90b1f36ff2d4559fd36cf2f8.png) no-repeat center center;
+        background-size: 100%; }
+  .hot .phone {
+    width: 1220px;
+    height: 430px;
+    border-top: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb;
+    margin: 0 auto;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden; }
+    .hot .phone ul {
+      width: 2440px;
+      height: 430px;
+      position: absolute; }
+    .hot .phone li {
+      height: 430px;
+      width: 305px;
+      border-left: 1px solid #dbdbdb;
+      border-right: 1px solid #dbdbdb;
+      border-bottom: 1px solid #dbdbdb;
+      float: left; }
+      .hot .phone li:hover {
+        box-shadow: 0px 0px 37px 1px #dbdbea inset; }
+      .hot .phone li a {
+        height: 430px;
+        width: 305px;
+        display: inline-block;
+        text-align: center;
+        color: #333333; }
+      .hot .phone li h6 {
+        color: #999999;
+        margin-top: 16px; }
+      .hot .phone li h2 {
+        margin-top: 20px;
+        color: #d44d44; }
+      .hot .phone li div {
+        width: 305px;
+        height: 284px;
+        text-align: center; }
+        .hot .phone li div img {
+          width: 50%;
+          margin-top: 50px; }
+
+.first {
+  width: 100%;
+  height: 920px;
+  background: #ededed; }
+  .first .fir {
+    width: 1220px;
+    height: 920px;
+    background: #ffffff;
+    margin: 0 auto;
+    border-left: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb; }
+    .first .fir .fir_t {
+      width: 1220px;
+      height: 61px;
+      border-right: 1px solid #dbdbdb;
+      border-bottom: 1px solid #dbdbdb; }
+      .first .fir .fir_t h3 {
+        margin-left: 48px;
+        line-height: 61px;
+        font-size: 18px;
+        color: #666666; }
+  .first ul {
+    height: 860px;
+    width: 1220px; }
+    .first ul li {
+      height: 430px;
+      width: 610px;
+      background: url(/images/chuizi/19b4fa0d236e574d2e7a17d747be31d1.jpg) no-repeat center center;
+      background-size: 100%;
+      border-right: 1px solid #dbdbdb;
+      border-bottom: 1px solid #dbdbdb;
+      float: left; }
+      .first ul li:hover {
+        box-shadow: 0px 0px 37px 1px #dbdbea inset; }
+      .first ul li div {
+        width: 305px;
+        height: 300px; }
+      .first ul li a {
+        text-align: center;
+        color: #333333;
+        height: 430px;
+        width: 305px; }
+      .first ul li h6 {
+        color: #999999;
+        margin-top: 16px; }
+      .first ul li h2 {
+        margin-top: 20px;
+        color: #d44d44; }
+    .first ul li:nth-child(1) a {
+      height: 430px;
+      width: 610px;
+      display: inline-block;
+      border: none; }
+    .first ul li:nth-child(2) {
+      height: 430px;
+      width: 305px;
+      background: url(/images/chuizi/1cd5ad269fa043103e723728e8e96c2e.jpg) no-repeat center center; }
+    .first ul li:nth-child(3) {
+      height: 430px;
+      width: 305px;
+      background: url(/images/chuizi/5dc4c6f3f334c4dd6808436686594cf6.jpg) no-repeat center center; }
+    .first ul li:nth-child(4) {
+      height: 430px;
+      width: 305px;
+      background: url(/images/chuizi/728cc8200d099ee231927a9ccfb08fd1.jpg) no-repeat center center; }
+    .first ul li:nth-child(5) {
+      height: 430px;
+      width: 305px;
+      background: url(/images/chuizi/a02b263d84911cb7316eeb1102584f4b.jpg) no-repeat center center; }
+    .first ul li:nth-child(6) {
+      height: 430px;
+      width: 305px;
+      background: url(/images/chuizi/c44f0ab4da5591fc3d0f82b7ac0f4f65.jpg) no-repeat center center; }
+    .first ul li:nth-child(7) {
+      height: 430px;
+      width: 305px;
+      background: url(/images/chuizi/45465465.jpg) no-repeat center center; }
+
+.bot {
+  width: 100%;
+  height: 64px;
+  border-bottom: 1px solid #dbdbdb;
+  background: #ededed; }
+
+footer {
+  width: 100%;
+  height: 353px;
+  background: #ffffff; }
+  footer .mid {
+    width: 1220px;
+    height: 165px;
+    border-bottom: 1px solid #dbdbdb;
+    margin: 0 auto;
+    margin-top: 58px; }
+    footer .mid ul {
+      width: 136px;
+      height: 165px;
+      float: left; }
+      footer .mid ul li h3 {
+        font-size: 12px;
+        color: #646464; }
+      footer .mid ul li:nth-child(2) {
+        margin-top: 25px;
+        font-size: 12px; }
+      footer .mid ul li:nth-child(2) a {
+        color: #969696; }
+      footer .mid ul li:nth-child(3) {
+        font-size: 12px;
+        margin-top: 12px; }
+      footer .mid ul li:nth-child(3) a {
+        color: #969696; }
+      footer .mid ul li:nth-child(4) {
+        font-size: 12px;
+        margin-top: 12px; }
+      footer .mid ul li:nth-child(4) a {
+        color: #969696; }
+    footer .mid .right {
+      float: right;
+      width: 161px;
+      height: 165px; }
+      footer .mid .right ul {
+        width: 161px;
+        height: 165px; }
+        footer .mid .right ul li:nth-child(1) {
+          font-size: 18px;
+          font-weight: bolder;
+          color: #5079d9;
+          float: right; }
+        footer .mid .right ul li:nth-child(2) {
+          margin-top: 14px;
+          color: #999999;
+          float: right; }
+        footer .mid .right ul li:nth-child(3) {
+          color: #999999;
+          float: right; }
+        footer .mid .right ul li:nth-child(4) {
+          width: 100px;
+          height: 30px;
+          border: 1px solid #dbdbdb;
+          text-align: center;
+          border-radius: 5px;
+          float: right; }
+        footer .mid .right ul li:nth-child(4) a {
+          line-height: 30px;
+          font-size: 12px;
+          color: #5079de; }
+  footer .p {
+    width: 1220px;
+    height: 130px;
+    margin: 0 auto; }
+    footer .p .p_f {
+      font-size: 12px;
+      margin-top: 30px; }
+    footer .p .p_f a {
+      display: inline-block;
+      color: #ababab; }
+    footer .p .p_f a span {
+      margin: 0 10px; }
+  footer a {
+    color: #ababab;
+    font-size: 12px; }
+  footer a span {
+    margin-right: 20px; }

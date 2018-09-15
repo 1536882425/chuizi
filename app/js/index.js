@@ -1,0 +1,13 @@
+//首先引入config
+require(["config"],function(){
+	//再引入依赖的模块
+	require(["base","about","banner","atama","hot","loginn"],function(base,about,banner,atama,hot,loginn,){
+		//使用tab和toast完成两个模块的功能
+		base.init();
+		about.init();
+		banner.init();
+		atama.init();
+		hot.init();
+		loginn.init();
+	})
+})

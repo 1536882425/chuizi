@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+input {
+  outline: none;
+  border: none; }
+
+body {
+  background: url(/images/dl/bg_9b9dcb65ff.png); }
+
+.box {
+  width: 454px;
+  height: 555px;
+  margin: 0 auto;
+  margin-top: 110px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 2px #dadada; }
+  .box .top {
+    width: 452px;
+    height: 63px;
+    border-bottom: 1px solid #dadada;
+    background: #f9f9f9;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative; }
+    .box .top span {
+      display: inline-block;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+      background: #D16D62;
+      font-size: 12px;
+      color: #ffffff;
+      position: absolute; }
+    .box .top .sj {
+      top: 108px;
+      left: 309px;
+      display: none; }
+    .box .top .mm1 {
+      top: 172px;
+      left: 276px;
+      display: none; }
+    .box .top .mm2 {
+      top: 237px;
+      left: 325px;
+      display: none; }
+    .box .top h3 {
+      color: #666666;
+      line-height: 63px; }
+  .box form {
+    width: 372px;
+    height: 350px;
+    margin: 0 auto;
+    border-bottom: 1px solid #dadada; }
+    .box form .usern {
+      width: 372px;
+      height: 50px;
+      border: 1px solid #dadada;
+      border-radius: 10px;
+      margin-top: 30px; }
+      .box form .usern span {
+        width: 50px;
+        height: 50px;
+        border-right: 1px solid #dadada;
+        display: inline-block;
+        font-size: 18px;
+        color: #aeaeae;
+        text-align: center;
+        line-height: 50px;
+        float: left; }
+      .box form .usern span:nth-child(2) {
+        border: none; }
+      .box form .usern input {
+        width: 265px;
+        height: 48px;
+        border: none;
+        float: left;
+        font-size: 16px;
+        text-indent: 1em; }
+    .box form .passw {
+      width: 372px;
+      height: 50px;
+      border: 1px solid #dadada;
+      border-radius: 10px;
+      margin-top: 15px; }
+      .box form .passw span {
+        width: 50px;
+        height: 50px;
+        border-right: 1px solid #dadada;
+        display: inline-block;
+        font-size: 18px;
+        color: #aeaeae;
+        text-align: center;
+        line-height: 50px;
+        float: left; }
+      .box form .passw input {
+        width: 315px;
+        height: 48px;
+        border: none;
+        float: left;
+        font-size: 16px;
+        text-indent: 1em; }
+    .box form .passw1 {
+      width: 372px;
+      height: 50px;
+      border: 1px solid #dadada;
+      border-radius: 10px;
+      margin-top: 15px; }
+      .box form .passw1 span {
+        width: 50px;
+        height: 50px;
+        border-right: 1px solid #dadada;
+        display: inline-block;
+        font-size: 18px;
+        color: #aeaeae;
+        text-align: center;
+        line-height: 50px;
+        float: left; }
+      .box form .passw1 input {
+        width: 315px;
+        height: 48px;
+        border: none;
+        float: left;
+        font-size: 16px;
+        text-indent: 1em; }
+    .box form .chec {
+      margin: 0 auto;
+      width: 372px;
+      height: 20px;
+      margin-top: 14px;
+      font-size: 12px;
+      color: #aeaeae;
+      line-height: 20px; }
+    .box form a {
+      color: #5079d9; }
+    .box form .reg {
+      width: 372px;
+      height: 48px;
+      background: url(/images/dl/ui-p_6b80ebe114.png) no-repeat -24px -340px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 28px;
+      color: #ffffff;
+      font-size: 20px;
+      opacity: 0.5;
+      cursor: pointer; }
+  .box .dl {
+    display: block;
+    margin: 0 auto;
+    width: 372px;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #5079db;
+    margin-top: 20px; }
+    .box .dl span {
+      color: #999999; }
+
+footer {
+  width: 100%;
+  height: 170px;
+  text-align: center; }
+  footer div a {
+    display: inline-block;
+    font-size: 12px;
+    color: #5079d9;
+    margin-top: 75px; }
+  footer div a:nth-child(1) {
+    color: #757575; }
+  footer div span {
+    color: #757575;
+    margin: 0 8px; }
+  footer a {
+    display: inline-block;
+    font-size: 12px;
+    color: #5079d9;
+    margin-top: 12px; }
